@@ -3,39 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body style = "background-color: rgb(200, 200,200); ">
-  <div class = "main_container">
-    <div style = "margin-top: 200px; margin-left: 100px;width: 420px;display: inline-block; *display: inline;">
-      <h1 class = "facebook-logo">facebook</h1>
-      <p style = "font-size: 24px; font-family: 'Helvetica';">Facebook помогает вам всегда оставаться на связи со своими знакомыми</p>
+<body>
+<section class="main_container">
+    <div class="info">
+        <p class="logo">facebook</p>
+        <p class="descr">Facebook помогает нам всегда оставаться на связи и общаться со своими знакомыми</p>
     </div>
-
-    <div style = "">
-      <input placeholder="Email or phonenumber" class = "input_table"/>
-      <input placeholder="Password" class="input_table"/>
-      <button class = "signin_button">Вход</button>
-      <a href = "" class = "forget_link" style = "color: lightskyblue; text-decoration: none">Забыли пароль?</a>
-      <hr/>
-      <button style = "background-color: green; width: 60%;margin-left: 65px;height: 15%;color: white;font-family: 'Helvetica', 'Arial', sans-serif;font-size: 18px;border-radius: 15px;">Создать аккаунт</button>
+    <div class = "main_form">
+        <input class = "main_input" placeholder="Электронный адрес и номер телефона"/>
+        <input class = "main_input" placeholder="Пароль"/>
+        <button class = "sign_in_button">Вход</button>
+        <p class = "reset_button">Забыли пароль?</p>
+        <hr></h4>
+        <button class = "sign_up_button">Создать аккаунт</button>
     </div>
-  </div>
-  <footer>
-    <div class = "footer_container">
-      <ul>
-        <li>Русский</li>
-        <li>English</li>
-        <li>Turkish</li>
-      </ul>
-      <hr>
-      <ul>
-        <li>Registration</li>
-        <li>Sign-in</li>
-        <li>Messenger</li>
-      </ul>
+</section>
+<section class="footer_container">
+    <div class="languages">
+        <ul>
+            <li>Русский</li>
+            <li>English</li>
+            <li>Turkish</li>
+        </ul>
     </div>
-  </footer>
-
+    <hr class = "second_hr"/>
+    <div class="links">
+        <ul>
+            <li>Registration</li>
+            <li>Sign-in</li>
+            <li>Messenger</li>
+        </ul>
+    </div>
+    <p class = "the_end">Facebook 2021</p>
+</section>
 </body>
 </html>
